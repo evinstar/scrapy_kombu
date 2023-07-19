@@ -12,8 +12,8 @@ from scrapy.settings import Settings
 from scrapy.spidermiddlewares.httperror import HttpError
 from twisted.internet.error import DNSLookupError
 
-from .constants import DELIVERY_TAG, URL
-from .message import KombuConnection
+from scrapy_kombu.constants import DELIVERY_TAG, URL
+from scrapy_kombu.message import KombuConnection
 
 
 class Utils:
